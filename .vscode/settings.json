@@ -1,0 +1,6 @@
+{
+    "C_Cpp.default.compilerPath": "/Applications/ARM/bin/arm-none-eabi-g++",
+    "files.associations": {
+        "*.tcc": "cpp"
+    }
+}
