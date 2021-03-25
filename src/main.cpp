@@ -924,7 +924,7 @@ int main()
         {        
             str_output.data = pump_active ? "Pump activated" : "Pump turned off";
             pub.publish(&str_output);
-            servoCommandParser(pump_active ? "V:0 S:1 E:1 P:20000 W:10000" : "V:0 S:1 E:0 P:20000 W:10000");
+            servoCommandParser(pump_active ? "V:0 S:6 E:1 P:20000 W:20000" : "V:0 S:6 E:0 P:20000 W:0");
             pump_command = false;
         }
 
